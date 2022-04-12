@@ -1,0 +1,10 @@
+[package]
+name = "character-roller"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced.git", commit = "3042fa2cb63c651ebed2abe6f4054e61f70b0331", features = ["smol"] }
+rand = "0.8.5"
