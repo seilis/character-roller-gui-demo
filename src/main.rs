@@ -161,6 +161,8 @@ fn roll_4_add_top_3(rng: &mut rand::rngs::ThreadRng) -> u8 {
     nums[1..].iter().sum()
 }
 
+// Copied from: the iced stopwatch example
+// https://github.com/iced-rs/iced/blob/master/examples/stopwatch/src/main.rs
 mod style {
     use iced::{button, Background, Color, Vector};
 
