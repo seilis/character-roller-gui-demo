@@ -167,7 +167,6 @@ mod style {
     pub enum Button {
         Primary,
         Secondary,
-        Destructive,
     }
 
     impl button::StyleSheet for Button {
@@ -176,7 +175,6 @@ mod style {
                 background: Some(Background::Color(match self {
                     Button::Primary => Color::from_rgb(0.11, 0.42, 0.87),
                     Button::Secondary => Color::from_rgb(0.5, 0.5, 0.5),
-                    Button::Destructive => Color::from_rgb(0.8, 0.2, 0.2),
                 })),
                 border_radius: 12.0,
                 shadow_offset: Vector::new(1.0, 1.0),
